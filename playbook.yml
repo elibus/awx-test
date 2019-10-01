@@ -2,4 +2,5 @@
   tasks:
     - name: echo command
       command: echo 'Hi! {{ myvar }}'
-
+    - name: echo vaulted
+      command: echo 'Hi! {{ thisisasecret }}'
